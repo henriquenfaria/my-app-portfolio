@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="android_developer_nanodegree_title">Android Developer Nanodegree Apps</string>
+    <string name="launch_app_toast">"This button will launch my %s app!"</string>
+</resources>
