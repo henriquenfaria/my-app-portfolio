@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements PortfolioFragment.OnPortfolioFragmentInteractionListener {
 
     private static final String[] APP_NAMES = {"Popular Movies", "Stock Hawk", "Build it Bigger", "Make Your App Material", "Go Ubiquitous", "Capstone"};
-    private static final String[] APP_PACKAGE_NAMES = {"", "", "", "", "", ""};
+    private static final String[] APP_PACKAGE_NAMES = {"com.henriquenfaria.popularmovies", "", "", "", "", ""};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
