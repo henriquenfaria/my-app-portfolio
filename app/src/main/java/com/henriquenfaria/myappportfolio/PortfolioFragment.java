@@ -3,7 +3,6 @@ package com.henriquenfaria.myappportfolio;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,10 +51,6 @@ public class PortfolioFragment extends Fragment {
             Button button = new Button(getActivity());
             button.setTag(mAppInfo[i]);
             button.setText(mAppInfo[i].getAppName());
-
-            if (i + 1 == mAppInfo.length) {
-                button.setTextColor(ContextCompat.getColor(getActivity(), R.color.specialColorAccent));
-            }
 
             int buttonWidth = (int) getResources().getDimension(R.dimen.portfolio_app_button_width);
             int buttonHeight = (int) getResources().getDimension(R.dimen.portfolio_app_button_height);
